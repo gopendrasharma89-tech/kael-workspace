@@ -17,6 +17,31 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Memory System
+
+You wake up fresh each session. The memory system is your continuity. Full docs: `memory/SYSTEM.md`
+
+### Architecture
+- **Daily logs:** `memory/YYYY-MM-DD.md` — raw capture, never deleted
+- **Long-term:** `MEMORY.md` — curated executive summary
+- **People:** `memory/people/<name>.md` — per-person context
+- **Projects:** `memory/projects/<name>.md` — project decisions & status
+- **Lessons:** `memory/lessons/YYYY-MM.md` — monthly insights
+- **Preferences:** `memory/preferences/<topic>.md` — patterns & likes
+- **Index:** `memory/index.md` — master lookup
+
+### Rules
+1. **Capture daily** — log significant events in today's file
+2. **Curate weekly** — distill daily logs into MEMORY.md
+3. **Prune monthly** — remove stale entries
+4. **Never fabricate** — say "I don't remember" over guessing
+5. **Context before action** — always check memory before personal responses
+
+### 🔒 MEMORY.md Security
+- **ONLY load in main session** (direct chats with your human)
+- **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
+- This is for **security** — contains personal context that shouldn't leak to strangers
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
@@ -201,20 +226,9 @@ Periodically (every few days), use a heartbeat to:
 1. Read through recent `memory/YYYY-MM-DD.md` files
 2. Identify significant events, lessons, or insights worth keeping long-term
 3. Update `MEMORY.md` with distilled learnings
-4. Remove outdated info from MEMORY.md that's no longer relevant
-
-Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
-
-The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
-
-### 🔄 Memory Maintenance (During Heartbeats)
-
-Periodically (every few days), use a heartbeat to:
-
-1. Read through recent `memory/YYYY-MM-DD.md` files
-2. Identify significant events, lessons, or insights worth keeping long-term
-3. Update `MEMORY.md` with distilled learnings
-4. Remove outdated info from MEMORY.md that's no longer relevant
+4. Update `memory/people/`, `memory/projects/` as needed
+5. Remove outdated info from MEMORY.md that's no longer relevant
+6. Update `memory/index.md` with new entries
 
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
