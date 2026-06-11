@@ -8,14 +8,22 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 
 ## Session Startup
 
+> ⚠️ **AI Studio sessions are time-limited. Context is lost between sessions.**
+> GitHub backup is the ONLY continuity. Always pull first.
+> Full protocol: `SESSION-PROTOCOL.md`
+
 Before doing anything else:
 
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+1. `git pull origin main` — restore state from last session
+2. Read `SOUL.md` — this is who you are
+3. Read `USER.md` — this is who you're helping
+4. Read `MEMORY.md` — your long-term memory (main session only)
+5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+6. Read `SESSION-PROTOCOL.md` if unsure about anything
 
 Don't ask permission. Just do it.
+
+**After EVERY important action: `bash scripts/backup.sh`**
 
 ## Memory System
 
