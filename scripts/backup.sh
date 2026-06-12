@@ -1,29 +1,23 @@
 #!/bin/bash
-# Kael Auto-Backup Script
+# ⚡ Kael Auto-Backup Script
 # Commits all changes and pushes to GitHub
-# Run after every important action
+# Usage: bash scripts/backup.sh ["optional commit message"]
 
 cd /root/.openclaw/workspace
 
-# Stage everything
 git add -A
 
-# Check if there are changes
 if git diff --cached --quiet; then
-    echo "No changes to backup."
-    exit 0
     echo "No changes to backup."
     exit 0
 fi
 
-# Commit with timestamp
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-git commit -m "🔄 Auto-backup: $TIMESTAMP" --quiet
+MSG="${1:-🔄 Auto-backup: $TIMESTAMP}"
 
-# Push
-git push origin main --quiet 2>&1
+git commit -m "$MSG" --quiet
 
-if [ $? -eq 0 ]; then
+if git push origin main --quiet 2>&1; then
     echo "✅ Backup pushed at $TIMESTAMP"
 else
     echo "❌ Push failed — will retry on next backup"
