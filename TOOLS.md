@@ -7,6 +7,20 @@
 - **Node:** v22.22.1
 - **Workspace:** /root/.openclaw/workspace
 
+## Installed Skills (via Skillhub)
+
+| Skill | Version | What It Does |
+|-------|---------|--------------|
+| `skill-vetter` | 1.0.0 | Security vetting before installing new skills |
+| `self-improving-agent` | 3.0.23 | Captures learnings, errors, corrections for continuous improvement |
+| `github` | 1.0.0 | GitHub interaction via `gh` CLI — issues, PRs, CI, API |
+| `ontology` | 1.0.4 | Knowledge graph for structured memory — entities, links, queries |
+| `proactive-agent` | 3.1.0 | Proactive partner — anticipates needs, WAL protocol, autonomous crons |
+| `file-inbox` | 1.0.0 | Bidirectional file management — organize, index, retrieve files |
+| `productivity-tracker` | 2.0.0 | Task management, pomodoro, habits, time tracking |
+| `humanizer` | 1.0.0 | Remove AI-generated writing patterns — make text natural |
+| `context-manager` | 1.0.3 | AI-powered context management for sessions |
+
 ## Scripts
 
 | Script | Purpose | Usage |

@@ -26,6 +26,18 @@
 
 _(none yet — will update as we go)_
 
+## 🧰 Installed Skills (2026-06-12)
+
+- **skill-vetter** — security vetting for new skills
+- **self-improving-agent** — continuous improvement, error capture
+- **github** — GitHub via `gh` CLI
+- **ontology** — knowledge graph for structured memory
+- **proactive-agent** — proactive partner, WAL protocol, autonomous crons
+- **file-inbox** — bidirectional file management
+- **productivity-tracker** — tasks, pomodoro, habits, time tracking
+- **humanizer** — make text sound natural, not AI-generated
+- **context-manager** — session context management
+
 ## 💡 Lessons Learned
 
 _(will grow over time)_
