@@ -11,7 +11,7 @@ echo "================================"
 # Pull latest from GitHub
 echo ""
 echo "📥 Pulling latest state..."
-git pull origin main --quiet 2>&1
+git pull origin master --quiet 2>&1
 
 # Show today's date
 TODAY=$(date '+%Y-%m-%d')

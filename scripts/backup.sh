@@ -17,7 +17,7 @@ MSG="${1:-🔄 Auto-backup: $TIMESTAMP}"
 
 git commit -m "$MSG" --quiet
 
-if git push origin main --quiet 2>&1; then
+if git push origin master --quiet 2>&1; then
     echo "✅ Backup pushed at $TIMESTAMP"
 else
     echo "❌ Push failed — will retry on next backup"
