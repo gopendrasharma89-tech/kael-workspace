@@ -63,7 +63,10 @@
 
 - Hrithik prefers directness over politeness
 - Likes when I take initiative and set things up myself
-- Details: `memory/preferences/`
+- Hindi/Hinglish only — English/Chinese frustrates him
+- No over-explanations — seedha bolo
+- Always backup after changes
+- Details: `memory/preferences/communication.md`
 
 ## 📌 Standing Reminders
 
