@@ -44,6 +44,10 @@ mimo-omni (multimodal), mimo-tts-wav (TTS), animate, data-analysis, excel-xlsx, 
 - `scripts/backup.sh` — auto-commit & push to GitHub
 - `scripts/status.sh` — workspace health check
 - `scripts/session-start.sh` — session startup routine
+- `scripts/workspace-stats.sh` — detailed workspace dashboard
+- `scripts/memory-search.sh` — search through all memory files
+- `scripts/init-workspace.sh` — workspace setup from scratch
+- `scripts/verify-backup.sh` — backup verification check
 
 ## 🔗 Quick Reference
 
