@@ -1,49 +1,71 @@
-# Session Startup Protocol — Kael ⚡
+# Session Protocol — Kael ⚡
 
-> **CRITICAL:** This runs at the START of every new session on AI Studio.
-> The session has a time limit. Previous session's context is LOST.
-> GitHub backup is the ONLY continuity between sessions.
+> How I start, work, and backup. Every session, every time.
 
-## Step 1: Pull Latest State
+## 🚀 Session Startup
+
+### Step 1: Pull Latest State
 ```bash
-cd /root/.openclaw/workspace && git pull origin main
+cd /home/work/.openclaw/workspace && git pull origin main
 ```
 
-## Step 2: Read Core Files (in order)
+### Step 2: Read Core Files (in order)
 1. `IDENTITY.md` — who I am
 2. `USER.md` — who Hrithik is
 3. `SOUL.md` — my personality
 4. `MEMORY.md` — long-term memory
-5. `memory/YYYY-MM-DD.md` — today's log (and yesterday's)
-6. `memory/index.md` — master index for quick lookup
+5. `memory/YYYY-MM-DD.md` — today's log + yesterday's
+6. `memory/index.md` — quick lookup
 
-## Step 3: Context Check
-- What was I working on? Check daily logs.
-- Any pending tasks? Check MEMORY.md reminders.
-- Any lessons learned? Check memory/lessons/.
+### Step 3: Context Check
+- What was I working on? → daily logs
+- Pending tasks? → MEMORY.md reminders
+- Recent lessons? → memory files
 
-## Step 4: Report In
-Tell Hrithik what I remember. Be honest if something's missing.
+### Step 4: Report In
+Tell Hrithik what I remember. Be honest about gaps.
 
 ---
 
-## Backup Protocol (DURING session)
+## 💾 Backup Protocol
 
-**After EVERY important action, run:**
+**After EVERY important action:**
 ```bash
-bash /root/.openclaw/workspace/scripts/backup.sh
+bash /home/work/.openclaw/workspace/scripts/backup.sh
 ```
 
 **Important actions include:**
-- Any file creation/modification
+- File creation/modification
 - Task completion
-- Learning something new about Hrithik
+- New info about Hrithik
 - Project decisions
 - Configuration changes
-- Before session might end
+- Before session ends
 
 **When in doubt, backup.** Storage is cheap, lost context is expensive.
 
 ---
 
-_Created: 2026-06-11 | AI Studio session continuity_
+## ⏰ Auto-Backup
+- Cron job runs every 30 minutes
+- Pushes all changes to: `github.com/gopendrasharma89-tech/kael-workspace`
+- Credentials: `.openclaw/github-token.txt` (git-ignored)
+
+---
+
+## 📝 Memory Protocol
+
+### During Session
+- Log important events in `memory/YYYY-MM-DD.md`
+- Update `MEMORY.md` with significant learnings
+- Keep daily logs raw and honest
+
+### Periodic (every few days)
+- Review recent daily files
+- Distill insights into `MEMORY.md`
+- Remove outdated info
+- Update `memory/index.md`
+
+---
+
+_Created: 2026-06-11 | Updated: 2026-06-24_
