@@ -11,7 +11,22 @@
 
 ## Skills Available
 
-_(will update as I discover and use them)_
+### Built-in (openclaw/skills/)
+github, weather, canvas, diagram-maker, meme-maker, coding-agent, healthcheck, notion, sag (TTS), video-frames, summarize, skill-creator, taskflow, tmux, xurl
+
+### Custom (~/.openclaw/skills/)
+mimo-omni (multimodal), mimo-tts-wav (TTS), animate, data-analysis, excel-xlsx, word-docx, frontend-design, code-generator, extract, akshare (finance), humanizer, polish, typeset, wps-ppt-generator, openclaw-agent-browser, self-improvement, optimize, arrange, clarify, critique, distill, normalize, overdrive, quieter, delight, bolder, colorize, harden, audit, onboard
+
+### Useful for Hrithik
+- **mimo-omni** — image/video/audio analysis
+- **github** — GitHub operations
+- **weather** — weather checks
+- **data-analysis** — data work
+- **frontend-design** — UI/UX work
+- **code-generator** — code generation
+- **excel-xlsx / word-docx** — document handling
+- **animate** — animations
+- **self-improvement** — agent self-learning
 
 ## Tools & Preferences
 
