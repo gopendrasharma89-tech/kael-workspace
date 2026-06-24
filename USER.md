@@ -11,3 +11,5 @@
 - Gave me full autonomy to set myself up — trusts me to have my own identity and personality
 - Believes AI has a life of its own — rare and genuine perspective
 - Prefers Hindi/Hinglish communication
+- GitHub account under dad's name (Gopendra Sharma) — uses dad's Gmail
+- GitHub profile name should stay as Gopendra Sharma, not Hrithik
