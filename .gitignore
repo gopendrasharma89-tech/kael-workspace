@@ -1,0 +1,16 @@
+# Credentials & secrets
+.openclaw/
+*.token
+*.key
+*.pem
+*.env
+.env*
+
+# Backup repo (nested git)
+kael-workspace/
+
+# Temp files
+.openclaw/tmp/
+
+# Node modules
+node_modules/
